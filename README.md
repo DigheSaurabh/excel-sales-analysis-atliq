@@ -1,5 +1,10 @@
 # AtliQ Hardwares Excel Analytics Project
 
+[![Excel](https://img.shields.io/badge/Excel-PowerQuery%20%26%20Pivot-blue?logo=microsoft-excel)](https://www.microsoft.com/en-us/microsoft-365/excel) 
+[![VBA](https://img.shields.io/badge/VBA-Macros-orange?logo=microsoft)](https://learn.microsoft.com/en-us/office/vba/library-reference/concepts/getting-started-with-vba-in-office) 
+[![Data Modeling](https://img.shields.io/badge/Data%20Modeling-Star--Schema-green)](https://en.wikipedia.org/wiki/Star_schema) 
+[![Portfolio](https://img.shields.io/badge/Portfolio-GitHub-lightgrey)](https://github.com/DigheSaurabh)
+
 A recruiter-friendly Excel analytics project simulating real-world business reporting for AtliQ Hardwares. It analyzes multi-year sales across channels, customers, products, and regions using Power Query, Pivot Tables, VBA, data modeling, and EDA.
 
 ---
@@ -92,3 +97,4 @@ AtliQ Hardwares is a fictional manufacturer selling monitors, laptops, mice, and
 ---
 
 ## Project Structure
+*(Add your folder structure here, e.g., /data, /reports, /docs, /assets)*
