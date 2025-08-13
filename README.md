@@ -96,5 +96,3 @@ AtliQ Hardwares is a fictional manufacturer selling monitors, laptops, mice, and
 
 ---
 
-## Project Structure
-*(Add your folder structure here, e.g., /data, /reports, /docs, /assets)*
