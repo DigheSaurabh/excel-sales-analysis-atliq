@@ -1,97 +1,57 @@
-# AtliQ Hardwares Excel Analytics Project
+# Excel Sales & Finance Analytics Project – AtliQ Hardwares  
 
-[![Excel](https://img.shields.io/badge/Excel-PowerQuery%20%26%20Pivot-blue?logo=microsoft-excel)](https://www.microsoft.com/en-us/microsoft-365/excel) 
-[![VBA](https://img.shields.io/badge/VBA-Macros-orange?logo=microsoft)](https://learn.microsoft.com/en-us/office/vba/library-reference/concepts/getting-started-with-vba-in-office) 
-[![Data Modeling](https://img.shields.io/badge/Data%20Modeling-Star--Schema-green)](https://en.wikipedia.org/wiki/Star_schema) 
-[![Portfolio](https://img.shields.io/badge/Portfolio-GitHub-lightgrey)](https://github.com/DigheSaurabh)
+### 📌 Project Objective  
+AtliQ Hardwares, a global computer hardware company (PCs, peripherals, and accessories), needed to **consolidate scattered sales and finance data** into one unified reporting system.  
+The leadership team wanted **faster, insight-driven decisions** instead of static Excel reports from regional managers.  
 
-A recruiter-friendly Excel analytics project simulating real-world business reporting for AtliQ Hardwares. It analyzes multi-year sales across channels, customers, products, and regions using Power Query, Pivot Tables, VBA, data modeling, and EDA.
-
----
-
-## Table of Contents
-- Overview
-- Objectives
-- What I Built
-- Key Insights
-- Deliverables
-- How to Use
-- Project Structure
-- Tech & Skills
-- What This Demonstrates
-- Contact
+As a **Data Analyst**, my role was to:  
+- Organize and transform 4 years of unstructured sales data (~50K+ records).  
+- Build automated, refreshable dashboards in Excel.  
+- Track key KPIs (Net Sales, Gross Margin %, YoY Growth, Contribution by Channel).  
+- Surface insights to guide strategy on products, customers, and geographies.  
 
 ---
 
-## Overview
-AtliQ Hardwares is a fictional manufacturer selling monitors, laptops, mice, and related products. Its customers are retailers and platforms—brick-and-mortar (Best Buy, Croma, Staples) and e-commerce (Amazon, Flipkart)—who sell to end consumers. Distribution operates through three channels: retailer, direct, and distributor. This project replicates a corporate analytics environment to evaluate multi-channel sales performance, customer segmentation, product success, and regional profitability.
+### 🛠 My Approach  
+1. **Data Preparation (ETL)**  
+   - Cleaned and transformed raw files using **Power Query**.  
+   - Built a **star schema data model** linking Fact Sales with Date, Customer, Product, and Market.  
+   - Standardized calculations (Net Sales, GM%, YoY).  
+
+2. **Analysis & Reporting**  
+   - Created Pivot-based dashboards with slicers/timelines.  
+   - Designed Profit & Loss reports by **year, month, market, and division**.  
+   - Built automated refresh and export using **VBA macros**.  
+
+3. **Business Storytelling**  
+   - Segmented customers (Top 10, Mid-tier, Long-tail).  
+   - Highlighted high-growth products and underperforming divisions.  
+   - Uncovered margin differences across countries and channels.  
 
 ---
 
-## Objectives
-- Build an Excel-based analytics solution replicating enterprise reporting.
-- Clean, model, and analyze multi-year sales across channels, customers, products, and regions.
-- Deliver interactive dashboards and automated reporting for decision support.
+### 🔑 Key Insights  
+- **Customer Concentration:** Top 10 customers contributed ~48% of $598M revenue (Amazon alone $82M). → Diversification needed.  
+- **Division Performance:** P&A division is the revenue engine ($338M, 221% YoY), while N&S underperformed.  
+- **Product Growth:** Top 10 products grew **+708%**, validating R&D investments.  
+- **Geography:** India led in revenue ($161M) but had lower margins (33.4%), while smaller markets achieved 43–45% GM.  
+- **Seasonality:** December sales consistently peaked (~7× March), requiring stronger supply chain planning.  
 
 ---
 
-## What I Built
-- Power Query ETL:
-  - Combined multiple files/tables, standardized formats, fixed types, removed duplicates.
-  - Reusable transformation steps for refreshable pipelines.
-- Data Modeling:
-  - Star-like model: Fact Sales linked to Date, Customer, Product, Market/Channel.
-  - Calculated columns and measures: Net Sales, Quantity Sold, Gross Margin, GM%, YoY growth.
-- EDA & Reporting:
-  - Trends by year/quarter/month.
-  - Channel analysis (retailer, direct, distributor).
-  - Customer segmentation (brick-and-mortar vs e-commerce).
-  - Product/category performance and new launches.
-  - Country/sub-zone performance and margin variance.
-- Advanced Excel:
-  - Pivot Tables/Charts with slicers and timelines.
-  - XLOOKUP/VLOOKUP/INDEX-MATCH for enrichment and reconciliation.
-  - VBA macros to refresh queries, update pivots, and export reports.
-- Storytelling:
-  - Interactive dashboards with KPIs, top customers/products, regional heatmaps.
-  - Clear business definitions and assumptions.
+### 📊 Deliverables  
+- Automated **Excel dashboards** (ETL + Pivot + VBA).  
+- **P&L reports** by year, month, quarter, and market.  
+- Executive-ready **PowerPoint deck** summarizing findings.  
+- Clear documentation of **KPI definitions and methodology**.  
 
 ---
 
-## Key Insights
-- Multi-year sales growth driven by strong performance in e-commerce and leading retailers.
-- Clear separation of customers (stores/platforms) vs consumers sharpened B2B insights.
-- Product analysis highlighted breakout SKUs and successful new launches in 2021.
-- Regional analysis surfaced high-GM markets and pricing/cost optimization opportunities.
-- Channels play complementary roles: retailer for scale, distributor for reach, direct for key accounts.
+### 📬 Contact  
+**Author:** Saurabh Prakash Dighe  
+📍 Chicago, IL  
+✉️ [sdighe@hawk.iit.edu](mailto:sdighe@hawk.iit.edu)  
+🔗 [LinkedIn](https://www.linkedin.com/in/dighesaurabh/) · [GitHub](https://github.com/DigheSaurabh)  
 
 ---
-
-## Deliverables
-- Excel workbook(s):
-  - Power Query transformations
-  - Data model with relationships and measures
-  - Pivot-driven dashboards with slicers/timelines
-  - VBA automation (where applicable)
-- Documentation (PDF/Markdown):
-  - Business context, data dictionary, KPI definitions, methodology
-  - Executive summary with insights and recommended actions
-- Visuals:
-  - Dashboard screenshots and charts
-
----
-
-## How to Use
-1. Prerequisites:
-   - Microsoft Excel 2016+ (Excel 365 recommended)
-   - Enable macros (VBA) for automation features
-2. Open:
-   - Main workbook in /data or root (see structure below)
-3. Refresh & Interact:
-   - Data > Refresh All to run Power Query
-   - Use slicers/timelines to filter by year, channel, customer type, product, region
-   - Run macros via Developer tab or dashboard buttons (if provided)
-4. Review:
-   - Insights/Executive Summary sheet or /docs summary for key takeaways
-
----
+👉 This project demonstrates my ability to **turn raw data into actionable business insights**, balance **technical Excel/VBA skills with strategic storytelling**, and deliver solutions that save **time and improve decision-making** for stakeholders.
